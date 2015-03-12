@@ -15,6 +15,7 @@ public class TwitterApi {
 	  public static void timeline(String searchword, int ok) throws TwitterException, FacebookException{  
 		    Twitter twitter = TwitterFactory.getSingleton();
 		    Query query = new Query(searchword);
+		    query.setCount(100);
 		    QueryResult result = twitter.search(query);
 		    for (Status status : result.getTweets()) {
 		        System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
