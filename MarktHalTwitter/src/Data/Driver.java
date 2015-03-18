@@ -47,7 +47,8 @@ public class Driver {
 			Input();
 		}else{
 			System.out.println("Verkeerde Command, type 'help' voor de Commands!");
-			Input();
+			TwitterApi.Streaming();
+			//Input();
 		}}}}}}
 
 	}
