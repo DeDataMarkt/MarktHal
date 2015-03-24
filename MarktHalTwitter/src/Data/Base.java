@@ -14,11 +14,11 @@ public class Base {
 	      // create a mysql database connection
 		   
 	      String myDriver = "org.gjt.mm.mysql.Driver";
-	      String myUrl = "jdbc:mysql://server86.hosting2go.nl/MediaApi";
+	      String myUrl = "jdbc:mysql://localhost/twitteruse";
 	      
 
 	      Class.forName(myDriver);
-	      Connection conn = DriverManager.getConnection(myUrl, "INF1G", "Lucky1994");
+	      Connection conn = DriverManager.getConnection(myUrl, "root", "1234");
 	     
 	      // create a sql date object so we can use it in our INSERT statement
 	      Calendar calendar = Calendar.getInstance();
@@ -26,7 +26,7 @@ public class Base {
 	 
 	      // the mysql insert statement
 	      if(media.equals("twitter")){
-	      String query = " insert into Twitter (user, post)"
+	      String query = " insert into Twitter (user, text)"
 	        + " values (?, ?)";
 	 
 	      // create the mysql insert preparedstatement
@@ -71,9 +71,9 @@ public class Base {
 	    {
 	      // create our mysql database connection
 	      String myDriver = "org.gjt.mm.mysql.Driver";
-	      String myUrl = "jdbc:mysql://server86.hosting2go.nl:8443/MediaApi";
+	      String myUrl = "jdbc:mysql://localhost/twitteruse";
 	      Class.forName(myDriver);
-	      Connection conn = DriverManager.getConnection(myUrl, "INF1G", "Lucky1994");
+	      Connection conn = DriverManager.getConnection(myUrl, "root", "1234");
 	       
 	      // our SQL SELECT query.
 	      // if you only need a few columns, specify them by name instead of using "*"

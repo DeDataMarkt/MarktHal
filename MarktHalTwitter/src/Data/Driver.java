@@ -47,7 +47,7 @@ public class Driver {
 			Input();
 		}else{
 			System.out.println("Verkeerde Command, type 'help' voor de Commands!");
-			TwitterApi.Streaming();
+			//TwitterApi.Streaming();
 			//Input();
 		}}}}}}
 
@@ -100,6 +100,7 @@ public class Driver {
 	String choice = user_input.nextLine();
 	if(choice.equals("twitter")){
 		Input();
+		//TwitterApi.getfollowers();
 	}else{if(choice.equals("facebook")){
 		inputfa();
 	}else{

@@ -22,21 +22,38 @@ public class TwitterApi {
 	  public static void timeline(String searchword, int ok) throws TwitterException, FacebookException{  
 		    Twitter twitter = TwitterFactory.getSingleton();
 		    Query query = new Query(searchword);
-		    query.setCount(100);
+		   // query.setCount(99);
 		    QueryResult result = twitter.search(query);
 		    for (Status status : result.getTweets()) {
-		        System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
-		        if(ok == 1){
+		    	String place = "niks";
+		    	Long twitid = status.getUser().getId();
+		    	if(status.getUser().getLang() != null || status.getUser().getLang() != "" || status.getUser().getLang() != " "){
+		    		place = status.getUser().getLang();
+		    	}
+		    	int retweet = status.getRetweetCount();
+		        System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText() + " Land: " + place + " Retweet: " + retweet + " ID: " + twitid);
 		        String nick = status.getUser().getScreenName();
 		        String txt = status.getText();
 		        String media = "twitter";
-		        Base.saveMedia(media, nick, txt);
+		        if(ok == 1){
+		        SaveBase.saveMedia(media, nick, txt, retweet, place, twitid);
 		        }
-			    Driver.choice();
 		    }    
 	  }
 	  
-	    public static void Streaming() throws TwitterException, FacebookException{
+	  public static void getfollowers() throws TwitterException, FacebookException{  
+		    Twitter twitter = TwitterFactory.getSingleton();
+		    Query query = new Query("from:markthalrdam");
+		    query.setCount(1);
+		    QueryResult result = twitter.search(query);
+		    for (Status status : result.getTweets()) {
+		    	int Followers = status.getUser().getFollowersCount();
+		    	 System.out.println("Aantal followers: " + Followers);
+		    	 SaveBase.saveFollowers(Followers);
+		    }
+	  }
+	  
+/*	    public static void Streaming() throws TwitterException, FacebookException{
 	    	
 
 	        ConfigurationBuilder cb = new ConfigurationBuilder();
@@ -89,7 +106,7 @@ public class TwitterApi {
 
 	        twitterStream.addListener(listener);
 	        twitterStream.filter(fq);
-	    }
+	    } */
 
 	    	
 	    }
