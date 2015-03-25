@@ -31,7 +31,7 @@ public class Driver {
 		} else {if(actualInput.equals("save")){
 			System.out.println("Type uw word dat u wilt zoeken en opslaan.");
 			String Twittername = user_input.nextLine();
-			TwitterApi.timeline(Twittername, 1);
+			TwitterApi.Streaming(Twittername);
 			Input();
 		}else{if(actualInput.equals("search databases")){
 			Base.takeDatabasestw();

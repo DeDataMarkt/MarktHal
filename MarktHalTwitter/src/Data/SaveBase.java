@@ -25,7 +25,8 @@ public class SaveBase {
 		      // create a sql date object so we can use it in our INSERT statement
 		      Calendar calendar = Calendar.getInstance();
 		      java.sql.Date startDate = new java.sql.Date(calendar.getTime().getTime());
-		      String NoName = searchbase.searchName(Name);
+		      String NoName = searchbase.find(Name);
+		      
 		      if(Name != NoName){
 		    	  System.out.println(NoName);
 		      // the mysql insert statement
@@ -60,7 +61,7 @@ public class SaveBase {
 		      preparedStmt.setInt (2, retweet);
 		      preparedStmt.setBoolean (3, false);
 		      preparedStmt.setString (4, Name);
-		      preparedStmt.setInt (5, 240315);
+		      preparedStmt.setInt (5, 250315);
 		 
 		      // execute the preparedstatement
 		      preparedStmt.execute();
@@ -117,7 +118,7 @@ public class SaveBase {
 			      // create the mysql insert preparedstatement
 			      PreparedStatement preparedStmt = conn.prepareStatement(query);
 			      preparedStmt.setInt (1, 1);
-			      preparedStmt.setInt (2, 240315);
+			      preparedStmt.setInt (2, 250315);
 			 
 			      // execute the preparedstatement
 			      preparedStmt.execute();

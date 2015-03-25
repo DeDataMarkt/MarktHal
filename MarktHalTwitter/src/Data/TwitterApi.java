@@ -22,8 +22,9 @@ public class TwitterApi {
 	  public static void timeline(String searchword, int ok) throws TwitterException, FacebookException{  
 		    Twitter twitter = TwitterFactory.getSingleton();
 		    Query query = new Query(searchword);
-		   // query.setCount(99);
+		    query.setCount(99);
 		    QueryResult result = twitter.search(query);
+		    
 		    for (Status status : result.getTweets()) {
 		    	String place = "niks";
 		    	Long twitid = status.getUser().getId();
@@ -53,7 +54,7 @@ public class TwitterApi {
 		    }
 	  }
 	  
-/*	    public static void Streaming() throws TwitterException, FacebookException{
+    public static void Streaming(String Searchword) throws TwitterException, FacebookException{
 	    	
 
 	        ConfigurationBuilder cb = new ConfigurationBuilder();
@@ -70,6 +71,17 @@ public class TwitterApi {
 	            @Override
 	            public void onStatus(Status status) {
 	                System.out.println("@" + status.getUser().getScreenName() + " - " + status.getText());
+			    	String place = "niks";
+			    	Long twitid = status.getUser().getId();
+			    	if(status.getUser().getLang() != null || status.getUser().getLang() != "" || status.getUser().getLang() != " "){
+			    		place = status.getUser().getLang();
+			    	}
+			    	int retweet = status.getRetweetCount();
+			        System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText() + " Land: " + place + " Retweet: " + retweet + " ID: " + twitid);
+			        String nick = status.getUser().getScreenName();
+			        String txt = status.getText();
+			        String media = "twitter";
+			        SaveBase.saveMedia(media, nick, txt, retweet, place, twitid);
 	            }
 
 	            @Override
@@ -100,13 +112,13 @@ public class TwitterApi {
 
 	        FilterQuery fq = new FilterQuery();
 
-	        String keywords[] = {"Ajax"};
+	        String keywords[] = {Searchword};
 
 	        fq.track(keywords);
 
 	        twitterStream.addListener(listener);
 	        twitterStream.filter(fq);
-	    } */
+	    } 
 
 	    	
 	    }
