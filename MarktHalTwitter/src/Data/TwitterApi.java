@@ -54,15 +54,15 @@ public class TwitterApi {
 		    }
 	  }
 	  
-    public static void Streaming(String Searchword) throws TwitterException, FacebookException{
+    public static void Streaming(String Searchword) throws TwitterException{
 	    	
 
 	        ConfigurationBuilder cb = new ConfigurationBuilder();
 	        cb.setDebugEnabled(true);
-	        cb.setOAuthConsumerKey("TMoLusb1KCZ2KNWHREQj1dN7s");
-	        cb.setOAuthConsumerSecret("nVbHmDf1T1u7T8Wh8XVhffnlA8CbS4zsh8pa02qjHcHv3fLO4W");
-	        cb.setOAuthAccessToken("356841347-O1uAf3mdaNQtTXbXDFecnERdoAtvZhXdbpUw5IRc");
-	        cb.setOAuthAccessTokenSecret("9YHVKXTAoFjVS5vMfX4ZvlRUoVTDFgP7neDklWSTTNZ9e");
+	        cb.setOAuthConsumerKey("qJIGkDdJP94MSGPlzaARe01CP");
+	        cb.setOAuthConsumerSecret("DCMYms6uYDOdxzEfHXlxKfsNoGhALrskfYuUDTZN3Q9CI3v0tY");
+	        cb.setOAuthAccessToken("111107495-OYyiRy9CLJhU7Ao9RUXgf0atP1VjzqpMGBcRwphX");
+	        cb.setOAuthAccessTokenSecret("wjIJXd1IfEX5tCk3gmMq63IuQMWbuqQ6HR5fjkKaJhUOV");
 
 	    	
 	        TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();

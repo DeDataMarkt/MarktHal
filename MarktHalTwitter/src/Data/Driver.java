@@ -10,10 +10,13 @@ public class Driver {
 	
 	private static Scanner user_input;
 
-	public static void main(String[] args) throws TwitterException, FacebookException{
+	public static void main(String[] args) throws Exception{
 		System.out.println("Type 'help' voor een lijst commands.");
 		user_input = new Scanner(System.in);
-		choice();
+		//TwitterApi.getfollowers();
+		//PieChart.MakeChart();
+		Interface.userinterface();
+		//choice();
 	}
 	
 	public static void Input() throws TwitterException, FacebookException{

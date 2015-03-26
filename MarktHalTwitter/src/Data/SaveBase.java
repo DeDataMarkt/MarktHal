@@ -61,7 +61,7 @@ public class SaveBase {
 		      preparedStmt.setInt (2, retweet);
 		      preparedStmt.setBoolean (3, false);
 		      preparedStmt.setString (4, Name);
-		      preparedStmt.setInt (5, 250315);
+		      preparedStmt.setInt (5, 260315);
 		 
 		      // execute the preparedstatement
 		      preparedStmt.execute();
@@ -117,8 +117,8 @@ public class SaveBase {
 			 
 			      // create the mysql insert preparedstatement
 			      PreparedStatement preparedStmt = conn.prepareStatement(query);
-			      preparedStmt.setInt (1, 1);
-			      preparedStmt.setInt (2, 250315);
+			      preparedStmt.setInt (1, 2);
+			      preparedStmt.setInt (2, 260315);
 			 
 			      // execute the preparedstatement
 			      preparedStmt.execute();
