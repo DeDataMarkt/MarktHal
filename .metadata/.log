@@ -1,0 +1,111 @@
+!SESSION 2015-03-27 12:31:40.625 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-03-27 12:32:07.433
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2015-03-27 12:32:44.480
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kh.g: No license found for UML Lab.
+	at TFSHBUUK3FSOG2ENKR2D3XVKO4NEQU6KZRKNGARBVSYFEMKL3PVQL3NX5FON2SAKFUMWUSVPFIFEJX52HSSMNKLHTW6VJK3OZXHICYAKFQMY36Z6P4GWXA7BI7SZWADJMI7NB3JGZHHBNLOIGZNH2BABEP3E44HN4KTTIENEKLCFFR2X4O6P7D5HW3CCPDXIQK4EVZ3IQXRSW6UASZG62X3FSUZH7TA7WG2OAGDLY2CPSAX4L2Z5CP4OJU5ABIOAUVFWRKOONSSLVIYU3SJPWCFKQOKKU2AN4ZDH54NCYFGXEVXSXTCH3Q7IN2KPZSRI4IDRVZNMBC6ZOELRTLDVSFSBLRHTKNCVI7HONKOURPXRDARES72PFFA5L4AV5UJZXH4GX4VQ6EECDIMNEGIJX4W3KWDATDABEOJOHPGZAXCDOM3WXUTHRIUXAAVXFGTB6THPBSYF6WD33N4JWEW2GVRYMUVKFD2O6E4S36KURFGMXSI7LP2TX4X74PUHSHJIHTMRBV3MNNXHVGTHRC3QTN4EGRQD6IE57NUWUD3LLSSFVNEWLE4NT52BSGOZGGM5LWMALIIU5K4GERPXAAK57BLID6BXCGIFWLXJXV7GFQTLNQUFDXO3NZNVTHFTYCQK3L7F5V7QONRUAXEL34KTKTDV3ZCGYBCQIQ45BKHHPRHMXM2Z4QN3PUTSIFOFDE7AUFI2N3F5QZZWQXWP7JPPNIIXFB2Q5ELH4554JWDXHV3MCADRMEJNNBJCQ5FKWWRS6PGRS6OVYRD7BF7PGKBUG6PHDIOLWDJMDP4SMECOK2V5KMZDLUZWE3TOH2DRAO77INTOOAW3JTZBUWWF4ZIDRI6WR7JX7CZXZPNFVJDD44X6YVDOTXF4TH34FKWH45LUXSSZDXOYWJFVF5BLJ4MMPB6NY3XS3JOS3J4HAXSTJIVTABYZ7U76UWFIUZZBZBDF227HZY3IK22BVLJJZGZBW6EJPMJTJMU5FNKNRD4BWFUYPSBGE3EEMNAJCTMKQNO357TPRHCYJHB6433DYLIDB7A45FGTXKRUH3OORVZEDVI2BAIQEPCAK5KIJXVUSD5IUDRUSH67HB5QWBQE7ESWDLZXDWKC5FXH4YCOZTU4ZQPMK4TRROIVR4TEBVD4NITFASR7KISHAWWXUWG4CPUBT74VHJZSM4ZNSI5BLXGM5MBKWW5XKN57ESN4MSXCMDDOH25LKQD4M4ZDWMXBDDYG4ZBQ5LA2OEQOQXOMDLM5TUYWX7S5BSTF5BZJOIERUGNC6U2L7D3PTWT4MITI5EFSFXNQRMZZ7YQJVLXBI2IKDDLSMN7WKHVORVW4JWW75YEZO4V6E4H4FKKJLACDZ6FNKEVRM3RNN4RA6RCTOU6ZJ5ZEZZOCVMT2D44A7UNKG7Z7UUL5S6EHDGNQQA4743I3UBEAN67D7ZXXLJNGDX6XKZCVHDODEEUBBIDTZPY24NB5RNOEHM5SHS2KV5AKFORX7KM74KI4MDWTWZNFMZY2BUCGVUSL7U5SXJCOX45TFVPN2GRI3RGET5FRQ3756EDDJQL67Y3OMUAE6EXUQJ7FQGPU65U2UUR3UWV57OHTRGVQSPSYROJLDID2V6PXSWYGKMPMPRM7GUWJTLDWZMTJTWCFTDRT7BMATVCWS5H747QOPTKESRDWOYKHIWUI3QQGZCROBS3LVMBH6ZURDW5LNIDJHKXMCRR3Z4J6OHLYSLZR4JJJRGGNPXQPQLW7EEJSME2EJDROU5RTDTYHMLCOFLYZ5WGODNLMGH5W2KKLIOI4K3PBX2WHIAIQVYDPA65UG44LLRQKGXIUY6TBYPLBNLNINMS2MVUIT4L6YKAK2HNZC3I7GEK2PD2Q6AJYVCYR3VAMOJBVMWTIATLV5ISQNP6A2J3G6AACAPFWHBUEPNQD7DGZ2CS7AX33WIQ4N3YQGEN7LNQ23SPLO3CRMMUNLANSIXRQW7WMQ6GGSCMWRHQY5IKAJDKZSNP5WKOEEKUUVIXB6E6HRUFTS7YG642SLUI3WJUNSMUB3IDTDOAB734A7IKHQ33SIHH4MVR366NHLNAXDVSMAVGID57DNVL5AQ24TVNLF2ED36FUGII2KBMY4H2RZULN6R3VR7VFN4IA3LVVJMGAYYTTW2WCBIL6T7VVVIR2JQ2SMJ5OH2XTRZ6BQ4EZWBSCQSXZUBNSMBFUGWSQDMTQUEWTKOYO6RSGNMFRXOLCPHGLNYDVI5UTGLSEYRMKA7WYQH4HJR3CJEMKOURZQVJX2JGQHVU3JYUJNRMQV6XPRXBYZFBQEELXKCEGKCXJZNOVF2MRDN2RHF4O5YQ5TS6G6P4XCPJRDUGMI36SY7PVN35UJ4O7GTQU5UAFHCFZQ4LQEJGAQYTZJBKN375Y5TJV4XP6RFEQDOS6P6ZDHRE4FLMQVV7KS6KR5JA2J46DY2IH6QTE23DWGRZE5ZDBJ3Z67KAHRI3FMXHPYNIR4L2EBKYOHF2H6ETJ7XIVBZJMNIXNMTLPXNTCYM6ZJKVQ26YVEV3QVMHIUHAVIXKLEJRMC2K7Q7L3NVGMNWNAC44GO4LQ4YLEBYAVM6EQVUDKYJOT7G2UKJZRHRTROFXTSRU3FYZLDMTUCP34MYQ2ZNN5LX2YASQ4O3IOVEGMJH4DOFTH33HZ5ME6SXUN3OJHPS6ZGVBYSYT4ARRR6QX4N5UBVZHX4YUEOWQY2Z3URP5CBR72JGXVDNSWITVEIAW74QH6YJMRAT5A4NAEIKRT3JLPPUFWZWDOOTROYOOW57KMFJ7XQIJHWXHGD7WZQEZ32GARN2AXH4Z6OEOP3T27S2PPFBQQDY7IWPSK4AHRIR5MWSALPONDBCXH3ZL3ALY3C6OBVV6OT5UXHQKD6YXOJISOKCGP2WCN23TAY4MSYQDCDTUZKG4ILYQMGC5BT4YLU7OJKMVMUWAOW3GYYMJCGCZENFDPXW6RCKXTNKC3D34CXJVTHWC7T5KU62QOBDFZ7KZIRXBB/2VR67Y2JSV2L5JLQFAD7OBAFYB.<unknown>(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab 2 0 2015-03-27 12:32:57.342
+!MESSAGE Unable to configure UML constraint validation
+!STACK 0
+java.lang.ClassNotFoundException: Unable to load synthetic subclass of com.yattasolutions.umllab.validation.f
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:123)
+	at com.yattasolutions.umllab.validation.f.<clinit>(SourceFile:40)
+	at com.yattasolutions.obf.op.a.earlyStartup(SourceFile:17)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.UnsupportedClassVersionError: com/yattasolutions/umllab/validation/f__Gen_Configurable has been compiled by a more recent version of the Java Runtime (class file version 0.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a$1.ads(SourceFile:109)
+	at com.yattasolutions.umllab.validation.a$1.findClass(SourceFile:91)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:119)
+	... 7 more
+!SESSION 2015-03-27 12:48:33.634 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-03-27 12:48:44.024
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2015-03-27 12:48:57.221
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kh.g: No license found for UML Lab.
+	at YPQJVDJVPZBL5SUZFNHYAW6VI2MRRIQUBMTVFBKWBPIHYZRXJP56XOWAPGHZ5PCRSJL3QJZSOLXFD7ZLB6GHSGYLYATJFWMFEISEHSBVVYFBKSNN5QDQPP5MH6ZD2URVASFAY2SNMPOQ36APU55WO2HNHQB2FIZLXRVGSVJLWJFKRIRBS7DSNYMQYCZ37LSGTJDCMHIQJULAWBPYVFYED5UBNLMA64F254BOQIWY7WUX6WO4PQ5YXA5IYOVZ6EWP6KFZULTG4R4NXJGZGGWT3LB35AMDWLSRAAI3SJROTNFQEL775CY7EJRVRROXJYKBE2A3QEPYI4VR4BF6XQCFUZUFO7T5BNFSTG6XGZCP7V6THXA7DNVM7G3ZYGKZTXWCSJLVWGDHKU4GTZJQBMAN7M677Q2BKI4G3TVPNOJXCHWMGA6ZYF2MYLNKLN2NTO4ZI4BRMBXDKQ4YRAUIW6M4WDBVVDSWH4ZR34JJ4YUFDMXC6H3SZTWKIQWVCHRO4RPI7LSLFAKEIZ6GGWWILBYDCW2E4MSME5QS5TXTEKELQ5QXUIIVSZYPBH2Y75E25ONDHTTQK4TZKDAMZPKOSZQ6IZXTZM7W52JC6QOVB7MWDPOQIAJMBVRMWX6UVX2KIHHTKPKYR645TS4X7CJDPB7LKFE366ZEXDTPSMB26FFTU3ENLQKLKYEO64BZWXN7YYOCRU5EKLDMASZ7SYL6KUMUYYLD2KCZBGUF3IFFPXEAMC7VR6CVGRTBXHKMCEJOAD4EPSQFVF2MRB5BNU76UNICG5PPU2P2FYVVWWXMP42QKMILLGNP2JK4ES5HOBILMVGNRJC55UFXUPHLOYSQHVNGMK4RFJK7E7ME6HZI6CBGY5KZKRITXIFHTCVSOQ4MXLPSWI7G6QHV2HTWGANL63L7FC5VAU37U7OWAC6I4IBN6FBHYWNCJROFNDBBRFG73AQV6PWFKBZ4HNDFD7YHQQSR3KYKWK26FPWHAFZSTFPLK5SGIQNSYRF4OUW32VF6FXVK6G5DVA3WSXRRLIEA4RJDFUXUDL3STPVBHD5DOWU2XAWKHAOQKCZI3KQ4VXKHUZ74DQYVGVFUKYX77LUM2VTLQ6MN5U5VN7K4QHKQYJ3ECKENQSYRLWM772NX6CTIEGN6SKQYW3GFY56DAHTEH2KCXN7MYYJN6GHKRM7WFWOK3D5TBAB2LT2NGDFC7BKTDWOADQ5QLW2TDBK3UP32LJG3SE6T3ITELTOMBEP5R32V2V6QLRKCSSFNN4D443NOATQ66X4T42TWX5S547ORQ2NGJO2X6OBVKNPJRWW6CGXD6NLG4PYXLZ2YXN27VSZMIZ5I4JVJUKUSIZE2GKZNAL6LO5I3XJPI3TAHVQUJTOR3252L6YR26ZXRTOBMN7QTIPZOLEXH7EPCT5WOAVM3OXL3F3RG3YE2QINN2AA6TGMOPBGHVFA44PEA6M4QJXZRRCGENEFGF7PL7ND3SRHTKNIEYG7XQGYKUXZ3ST6SAZZCJYYX2J3RAN7Y37ESF4UXAAPC2KICLS2QCN2IZ7NMYT76H4PJACBRN6NNP6MDJSN7VLFG2MPYR3NTSUGCOQB24O3YTTNZD6IQT3MFRR65L6WQUQ27UQ5M3HRCWPWYP3OHDUIDE4JLIGAGUHIPHZ6JO2B4H2VW4NHTYK27NZNO4W732OHHTA55KDNCYVQJ5QTBHAFKEVRXJD7PBDSP6JG77XVP4XFOHYFK5LXTZW3CPGYCMQFAI4YQUSQBFTY7PLJHI4526DCVJLJPUDMZQU5DXH4BUZCQO6WJQSK2CAGVYQRTXB5YRD/XF5RFGS625GGO3F5FFE3XYJMTB.<unknown>(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab 2 0 2015-03-27 12:49:00.877
+!MESSAGE Unable to configure UML constraint validation
+!STACK 0
+java.lang.ClassNotFoundException: Unable to load synthetic subclass of com.yattasolutions.umllab.validation.f
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:123)
+	at com.yattasolutions.umllab.validation.f.<clinit>(SourceFile:40)
+	at com.yattasolutions.obf.op.a.earlyStartup(SourceFile:17)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.UnsupportedClassVersionError: com/yattasolutions/umllab/validation/f__Gen_Configurable has been compiled by a more recent version of the Java Runtime (class file version 0.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a$1.ads(SourceFile:109)
+	at com.yattasolutions.umllab.validation.a$1.findClass(SourceFile:91)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:119)
+	... 7 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-27 12:54:20.468
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-27 12:54:20.469
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Oscar Veldman'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
